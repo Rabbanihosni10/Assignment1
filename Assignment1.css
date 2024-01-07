@@ -1,0 +1,12 @@
+h2{
+    color: red;
+    background-color: aqua;
+}
+p{
+    color:greenyellow;
+}
+header{
+    background-image: url(resources/New\ Year\ Photo.png);
+    position: absolute;
+    left: 50%;
+}
