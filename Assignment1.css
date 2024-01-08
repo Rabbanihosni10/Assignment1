@@ -1,5 +1,5 @@
 /* heading top banner section */
-.header{
+.banner{
     background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 85%),url(resources/Banner\ Image.png);
     height: 600px;
     width: 1320px;
@@ -8,8 +8,8 @@
     background-repeat: no-repeat;
     border-radius: 16px;
     position: relative;
-    top:10px;
-    left:250px;
+    top:15%;
+    left:15%;
     /* position: fixed; */
 }    
 .banner-h1{
@@ -44,9 +44,43 @@
     font-size: 25px;
     text-align: center;
 }
-.off-pic{
+.off .noya-pic{
     width: 802.9px;
     height: 500px;
     position:absolute;
     left:29%;
+}
+.off{
+    position:static;
+}
+/* Welcome party properties */
+.welcome-party{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 70%),url(resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    height: 600px;
+    width: 1320px;
+    background-size: 100%;
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    left:15%;
+    right:35%;
+}
+.welcome-party-title{
+    color: #FFF;
+    font-size: 42px;
+    position: relative;
+    top: 40%;
+    right:20%;
+    bottom: 80%;
+}
+.welcome-party-pic{
+    position: relative;
+    left:25%;
+}
+.welcome-party-contain{
+    position: relative;
+    top: 50%;
+    right:5%;
 }
